@@ -1,6 +1,6 @@
 package com.amikhailov.conferences.conferenceapp.controllers;
 
-import com.amikhailov.conferences.conferenceapp.ui.model.request.ConferenceDetailsRequestBody;
+import com.amikhailov.conferences.conferenceapp.ui.model.request.ConferenceDetailsRequestModel;
 import com.amikhailov.conferences.conferenceapp.ui.model.response.ConferenceRest;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +14,7 @@ public class ConferenceController {
     }
 
     @PostMapping
-    public ConferenceRest createConference(@RequestBody ConferenceDetailsRequestBody conferenceDetailsRequestBody) {
+    public ConferenceRest createConference(@RequestBody ConferenceDetailsRequestModel conferenceDetailsRequestBody) {
         return null;
     }
 
